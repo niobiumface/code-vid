@@ -1,0 +1,40 @@
+/* CodeVid Demo - JavaScript Animation Example */
+
+/**
+ * A simple class to represent a Person
+ */
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+  }
+
+  celebrateBirthday() {
+    this.age++;
+    return `${this.name} is now ${this.age} years old!`;
+  }
+}
+
+// Create some people
+const alice = new Person("Alice", 28);
+const bob = new Person("Bob", 32);
+
+// Demonstrate the class methods
+console.log(alice.greet());
+console.log(bob.greet());
+
+// Celebrate birthdays
+console.log(alice.celebrateBirthday());
+console.log(bob.celebrateBirthday());
+
+// Using array methods
+const people = [alice, bob, new Person("Charlie", 22)];
+const names = people.map(person => person.name);
+const averageAge = people.reduce((sum, person) => sum + person.age, 0) / people.length;
+
+console.log(`People: ${names.join(", ")}`);
+console.log(`Average age: ${averageAge.toFixed(1)}`);
