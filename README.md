@@ -1,6 +1,6 @@
-# CodeVid - Code Animation Engine
+# CodeVid - Code Animation Engine (v0.1)
 
-CodeVid is a powerful tool for creating beautiful code animations for your videos, tutorials, and presentations. It allows you to animate code appearing character by character, line by line, or as a complete block, with syntax highlighting just like in modern code editors.
+CodeVid is a tool for creating code animations for your videos, tutorials, and presentations. It allows you to animate code appearing character by character, line by line, or as a complete block, with syntax highlighting just like in modern code editors.
 
 ## Features
 
