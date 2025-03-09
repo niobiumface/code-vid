@@ -70,3 +70,7 @@ CodeVid works in all modern browsers:
 ## License
 
 This project is open source and available for any use.
+
+## Run in Browser on itch.io
+
+https://niobiumfafce.itch.io/code-video-maker 
